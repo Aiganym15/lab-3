@@ -1,0 +1,41 @@
+body {
+    margin:auto;
+    width:30%;
+    padding:15px;
+    font-size:18px;
+    font-family:Verdana;
+    background-color: rgba(255,192,203, 0.4);
+}
+
+form {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0,191,255,0.3 );
+    border-radius: 15px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 191, 255, .2);
+}
+
+.submit {
+    background-color: #308ced;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.register {
+    background-color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.help {
+    margin-top: 10px;
+}
+
+.help a {
+color: #000;
+font-style: italic;
+text-decoration: none;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <style>
+    form {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: rgba(0,191,255,0.3 );
+        border-radius: 15px;
+        box-shadow: 12px 12px 2px 1px rgba(0, 191, 255, .2);
+    }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center; color:rgb(29, 29, 93);">Registration</h1>
+    <form>
+        <div>
+        <label for="firstname">First Name:</label><br>
+        <input type="text" id="firstname" name="firstname">
+        </div><br>
+        <div>
+        <label for="lastname">Last Name:</label><br>
+        <input type="text" id="lastname" name="lastname">
+        </div><br>
+        <div>
+            <label for="number">Phone number:</label><br>
+            <input type="tel" id="number" name="phone">
+        </div><br>
+        <div>
+            <label for="email">E-mail:</label><br>
+            <input type="email" id="email" name="email">
+        </div><br>
+        <div>
+            <label for="passwrd">Password:</label><br>
+            <input type="password" id="passwrd" name="password">
+            </div><br>
+        <div>
+        <label for="date">Date of Birth:</label><br>
+        <input type="date" id="date" name="birthday">
+        </div><br>
+        <label for="radio">Gender:</label>
+        <div id="radio">
+        <input type="radio" name="gender" id="famale" value="female">
+        <label for="famale">Female</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male </label>
+        <input type="radio" name="gender" id="other" value="other">
+        <label for="other">Other</label> 
+        </div><br>
+        <label for="check">Genre:</label>
+        <div id="check">
+            <input type="checkbox" name=choice1"" id="drama">
+            <label for="drama">Drama</label><br>
+            <input type="checkbox" name=choice2"" id="detective">
+            <label for="detective">Detective</label><br>
+            <input type="checkbox" name=choice4"" id="comedy">
+            <label for="comedy">Comedy</label>
+        </div><br>
+        <div>
+           <button>
+            <a href="index2.html" style="color: #000;">Submit</a>
+           </button>
+           
+        </div>
+    </form>
+</body>
+</html>

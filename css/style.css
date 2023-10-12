@@ -1,0 +1,73 @@
+body            
+{
+    margin:auto;
+    width:30%;
+    padding:15px;
+    font-size:18px;
+    font-family:Verdana;
+    background-color: rgba(255,192,203, 0.4);
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="radio"],
+input[type="checkbox"] {
+    padding: 20px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 0.5px solid #767070;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #308ced;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: grab;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#check, #radio {
+    display: flex;
+    background-color: #fff;
+    border: 0.5px solid #767070;
+    border-radius: 5px;
+}
+
+#check label, 
+#radio label {
+    padding: 10px;
+}
+
+@media (min-width: 480px) {
+    body {
+        width: auto;
+    }
+
+    
+
+    input[type="text"],
+    input[type="tel"],
+    input[type="email"],
+    input[type="password"],
+    input[type="date"],
+    input[type="radio"],
+    input[type="checkbox"] {
+        padding: 10px; 
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+}

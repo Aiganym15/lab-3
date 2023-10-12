@@ -1,0 +1,108 @@
+body            
+{
+    margin:auto;
+    padding:10px;
+    font-size:14px;
+    font-family:'Open Sans', sans-serif;
+    background-image: url(/img/e014d62628d1c8ea7e9341c4a7ab9474.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-logo {
+    display: flex;
+}
+
+.logo {
+    width: 3%;
+}
+
+.logo-name {
+    padding-left: 10px;
+}
+
+.logo-name a {
+    text-decoration: none;
+}
+
+.logo-name a:hover {
+    color: #4c0350;
+    text-decoration: underline;
+}
+
+.logo-name p {
+    margin: 0px;
+    padding: 0px;
+    color: #fff;
+}
+
+nav ul {
+    padding: 15px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+ul a {
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+ul a:hover {
+    color: #4c0350;
+    text-decoration: underline;
+}
+
+fieldset {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    background-color: rgba(0, 191, 255, .75);
+}
+
+section ul {
+    list-style-type: square;
+}
+
+dt {
+    font-family: 'Space Grotesk', sans-serifS;
+}
+
+table {
+    background-color: #aabed4;
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid #007bff;
+}
+
+table th, table td {
+    border: 1px solid #007bff;
+    padding: 8px;
+    text-align: left;
+}
+
+table tr:hover {
+    background-color: #f2f2f2;
+}
+
+
+table thead th {
+    background-color: #85b9f0;
+    color: #fff;
+}
+
+
+section ul ul {
+    list-style-type: circle;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
